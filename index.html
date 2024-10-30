@@ -185,10 +185,15 @@
         <li>`/continue` - Continue planning after reaching a milestone</li>
         <li>`/restart` - Start a new trip planning session</li>
         <li>`/cancel` - End the current session</li>
+        <li>`/delete_all` - Delete all your data and leave the chat permanently</li>
+        <li>`/leave_chat` - Leave the chat without deleting data</li>
         <li>`/support` - Access support resources</li>
         <li>`/feedback` - Submit feedback</li>
         <li>`/help` - View available commands</li>
       </ul>
+      <p style="color: #d32f2f; margin-top: 1rem;">
+        Note: The `/delete_all` command is irreversible and will permanently delete all your data and remove the bot from the chat.
+      </p>
     </section>
 
     <section>
@@ -207,9 +212,14 @@
       <h3>9.1 User Termination</h3>
       <p>Users may terminate their use of the service by:</p>
       <ul>
-        <li>Using the `/cancel` command</li>
+        <li>Using the `/cancel` command to end the current session</li>
+        <li>Using the `/delete_all` command to permanently delete all data and leave the chat</li>
+        <li>Using the `/leave_chat` command to leave without data deletion</li>
         <li>Removing the Bot from their group chat</li>
       </ul>
+      <p style="color: #d32f2f; margin-top: 1rem;">
+        Warning: The `/delete_all` command will permanently erase all your data and cannot be undone.
+      </p>
 
       <h3>9.2 Service-Initiated Termination</h3>
       <p>
@@ -347,9 +357,13 @@
       </p>
       <ul>
         <li>180 days of inactivity</li>
+        <li>Immediate deletion upon using the `/delete_all` command</li>
         <li>Immediate deletion upon using the `/delete_data` command</li>
         <li>30 days after account deletion</li>
       </ul>
+      <p style="color: #d32f2f; margin-top: 1rem;">
+        Note: Using the `/delete_all` command will immediately and permanently delete all your data and remove the bot from the chat. This action cannot be undone.
+      </p>
     </section>
 
     <section>
